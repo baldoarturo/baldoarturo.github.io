@@ -1,0 +1,3 @@
+{% for post in site.posts limit:6 %}
+... Show the post ...
+{% endfor %}
